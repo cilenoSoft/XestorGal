@@ -1,0 +1,51 @@
+        /* ---------------------------------------------------
+    Index
+----------------------------------------------------- */
+        
+        body {
+            background-image: url("../img/background_team.jpg");
+            background-image: no-repeat;
+            background-image: fixed;
+            background-image: center;
+            -webkit-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+        
+        #contenedor {
+            background-color: #ffffff91;
+            background-color: rgba(162, 168, 172, 0.616);
+            padding-right: 20px;
+            padding-left: 20px;
+            padding-top: 6px;
+            padding-bottom: 8px;
+            border-radius: 20px;
+            max-width: 300px;
+            margin: auto;
+        }
+        
+        .pieLogueo a {
+            color: rgb(12, 70, 70) !important;
+            font-weight: bold;
+        }
+        
+        #xestorGal {
+            text-align: center;
+            color: rgb(24, 80, 80) !important;
+            font-weight: bold;
+            text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.2);
+        }
+        
+        #enviaLogueo {
+            background-color: rgb(12, 70, 70) !important;
+            border-color: rgba(187, 168, 144, 0.781);
+        }
+        
+        #enviaLogueo:hover {
+            background-color: rgba(12, 70, 70, 0.712) !important;
+            border-color: rgb(12, 70, 70) !important;
+        }
+        
+        .minh-80 {
+            height: 80vh !important;
+        }
