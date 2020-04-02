@@ -2,7 +2,7 @@
 
 require_once 'servicio.php';
 
-$server = new SoapServer("http://localhost/xestorgal/servicio/documentoWdsl.xml");
+$server = new SoapServer("http://localhost/PHP/documentoWdsl.xml");
 
 $server->setClass('Servicio');
 
