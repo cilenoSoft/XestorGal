@@ -11,6 +11,8 @@ Usuario: diego
 Pass: cileno
 
 Existe dispoñible unha implementación con webservice SOAP, para facer funcionar a aplicación co servizo é necesario
-modificar o a primeira liña do arquivo PHP/BDManager.php para que apunte o servizo ( require_once '../servicio/servicio.php';).
+renomear o nome do arquivo PHP/BDManager_SOAP.php polo nome PHP/BDManager_SOAP.php e habilitar SOAP no servidor no arquivo "php.ini".
+
+Na conta gratuita do servidor 000webhostapp non permite habilitar SOAP polo que a versión funcional tratase da version sen servizo web.
 
 
