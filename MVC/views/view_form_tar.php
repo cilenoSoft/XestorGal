@@ -26,13 +26,11 @@
 
     <!-- JS -->
 
-    <script src="../../js/xestor.js"></script>
     <script src="../../js/jquery-1.9.1.min.js"></script>
     <script src="../../js/jquery.validate.min.js"></script>
     <script src="../../js/jquery.validate.js"></script>
-
-    <!-- jQuery AJAX -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="../../js/xestor.js"></script>
+    <script src="../../js/formTarefa.js"></script>
 
     <!-- Popper.JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous">
@@ -61,7 +59,7 @@
                     <div class="col-12">
                         <div class="row justify-content-center align-items-center">
                             <div id="alerta">
-                                <form id="tarefa-form" class="form-horizontal" onsubmit="return false" action="#">
+                                <form id="formCreaTar" class="form-horizontal" onsubmit="return false" action="#">
 
                                     <h3 class="form_title">Crear Nova Tarefa!</h3>
 
@@ -99,13 +97,16 @@
 
                                     <div class="control-group">
                                         <label class="control-label">Descripción</label>
+                                        <div class="controls">
                                         <textarea name='descripcion' id='descripcion' class="form-control" rows="3"></textarea>
+                                        <span class="help-block"></span>
+                                        </div>
                                     </div>
 
                                     <p></p>
                                     <div class="control-group">
                                         <div class="form-footer">
-                                            <button class="btn btn-info crearTarefa" onclick="creaTarefa();"> Crear Tarefa </button>
+                                            <button class="btn btn-info crearTarefa"> Crear Tarefa </button>
                                         </div>
                                     </div>
 
