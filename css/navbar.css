@@ -1,0 +1,36 @@
+/* ---------------------------------------------------
+    NAVBAR
+----------------------------------------------------- */
+
+#cabecera_navBar {
+    float: left;
+}
+
+.navbar {
+    background: #fff;
+    border: none;
+    border-radius: 0;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #398aa4;
+}
+
+.navbar a:hover {
+    background-color: grey;
+}
+
+.nav-item {
+    margin-right: 10px;
+}
+
+i,
+span {
+    display: inline-block;
+}

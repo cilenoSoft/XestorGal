@@ -1,0 +1,104 @@
+.imgConta {
+    overflow: hidden !important;
+}
+
+/* ------------------- Actividade ------------------- */
+
+.hAct {
+    font-size: 16px !important;
+    text-align: center;
+    /*background-color: #17a2b8;*/
+    background: linear-gradient(to right bottom, #2f3441 50%, #212531 50%);
+    color: white;
+    margin-bottom: 15px;
+}
+
+.t_actividade td {
+    padding: 3px 8px 3px 8px;
+}
+
+.t_actividade th {
+    padding: 3px 8px 3px 8px;
+    border: 1px solid blue;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#actividade {
+    overflow-x: scroll;
+    display: block;
+    scrollbar-width: thin;
+}
+
+.font-12 {
+    font-size: 12px !important;
+}
+
+
+/* -------------------------------------------------- */
+
+
+/* ------------------- Imputación ------------------- */
+
+#selectTarefas {
+    width: 180px;
+}
+
+.tableImputacion input {
+    font-size: 12px;
+}
+
+#imputacion {
+    overflow-x: scroll;
+    display: block;
+    scrollbar-width: thin;
+}
+
+#datepicker {
+    border-radius: 8px;
+    background-color: beige;
+}
+
+.inputfile+label {
+    max-width: 80%;
+    font-size: 12px !important;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0.625rem 1.25rem;
+}
+
+textarea {
+    font-size: 12px !important;
+}
+
+
+/* -------------------------------------------------- */
+
+
+/* ------------------- Datos Usuario ------------------- */
+
+.p_cambiarImg {
+    color: black;
+    text-decoration: underline;
+}
+
+.enlace {
+    text-decoration: underline;
+    color: blue;
+}
+
+.etiqueta {
+    color: black !important;
+}
+
+.blockquote_User {
+    margin-top: 2px;
+    border-left: grey solid 5px;
+    color: grey;
+}
+
+
+/* -------------------------------------------------- */
