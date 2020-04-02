@@ -6,8 +6,9 @@ Para o despliegue do proxecto é necesario copiar o contido do repositorio na ra
 Para o funcionamento da web e necesario crear a BD co script "xestorgal.sql".
 
 Encontrase dispoñible unha versión de proba publicada en "https://xestorgal.000webhostapp.com/".
-Usuario de proba:
+</br>
 Usuario: diego
+</br>
 Pass: cileno
 
 Existe dispoñible unha implementación con webservice SOAP, para facer funcionar a aplicación co servizo é necesario
